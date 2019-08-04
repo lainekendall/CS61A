@@ -1,0 +1,16 @@
+
+def divide_exact(n,d):
+    """reutnr quotient
+    >>>q,r = divide_exact(2015,10)""""
+    return n//d , n%d
+
+quotient, remainder = divide_exact(2015,15)
+
+print('Quotient:', quotient)
+
+def :
+	if   :
+		return
+	elif
+
+

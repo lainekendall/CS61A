@@ -1,0 +1,24 @@
+Questions.py
+10: do we have to make tests?
+11b: is formals mutable? if so we must change other things, do we add tests?
+
+
+
+
+
+Things we have NOT added tests to: 
+10
+11b
+
+things to fix:
+- use .first and .second instead of slicing (probably means changing to recursion)
+- 
+
+
+def do_lambda_form(expressions, env):
+    """Evaluate a lambda form."""
+    check_form(expressions, 2)
+    formals = expressions.first
+    check_formals(formals)
+    body = expressions.second
+    return LambdaProcedure(formals, body, env)

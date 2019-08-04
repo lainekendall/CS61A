@@ -1,0 +1,44 @@
+trash
+
+; drawing.scm
+; (define (dots color size curr-height curr-width)
+; 	(begin (define max-height (- 1 (/ 120 (/ size 5)))) (define max-width (- 2 (/ 128 (/ size 5))))
+; 	()
+; 	)     ;;;; until height (second) is 23 for size 25
+; 	)
+
+; (pixelsize 10)
+; (define (change-color r g b width height time)
+
+; 	(cond ((or (= r 1) (= g 1) (= b 1)) (pixel 30 30 (rgb 1 1 1)))
+; 		((or (= width 63) (= height 59)) (color-change (+ .1 r) (+ .1 g) (+ .1 b) 0 0))
+
+; 		  (else (begin (pixel width height (rgb r g b))
+; 	 		(color-change r g b (+ 10 width) (+ 10 height)))))
+; 	 )
+; cursor: list of (1) width and (2) height
+; color: 
+; one function that changes the color
+; one function that changes the location
+; they mutally call each other and then 
+
+; (define (change-location cursor)
+; 	(cond (())
+
+; 		)
+; 	)
+
+; (define (implement cursor color)
+; 		(begin (pixel (car cursor) (car (cdr cursor)) color)
+; 			   (implement (change-location cursor) (change-color color))
+; 			)
+; 	)
+
+; (define (pingpong x )
+; 	(define (helper x up)
+; 		(cond ((< x 1.0) (+ x .1))
+; 		 	  (( = x 1.0) (.9)
+; 		 	  ((= x 0.0) )
+; 		  	) )
+; 	)
+
